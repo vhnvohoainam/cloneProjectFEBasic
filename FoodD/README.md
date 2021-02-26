@@ -1,6 +1,7 @@
 # cloneProjectFEBasic
-Demo here : <a href="https://vhnvohoainam.github.io/cloneProjectFEBasic/FoodD/" target="_blank">Click me</a>
-<strong style="color:red;">Status</strong> : No responsive! I will update soon.
+<h1>Demo here :</h1> <a href="https://vhnvohoainam.github.io/cloneProjectFEBasic/FoodD/" target="_blank">Click me</a>
+<br/>
+<strong>Status</strong> : No responsive! I will update soon.
 
 ────────────────────────────────────────────────────────────────────────────
 ─██████████████─██████████████─██████████████─████████████───████████████───
