@@ -12,7 +12,7 @@
 }
 .mid{
     width: 100%;
-    background: url(/img/top_bg.jpg);
+    background: url(./img/top_bg.jpg);
     min-height: 722px;
     background-color: #EEF5F7;
     background-position: top center;
