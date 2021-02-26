@@ -1,7 +1,7 @@
 # cloneProjectFEBasic
 <h3>Demo here :</h3> <a href="https://vhnvohoainam.github.io/cloneProjectFEBasic/FoodD/" target="_top">Click me</a>
 <br/>
-<strong>Status</strong> : No responsive! I will update soon.
+<strong>Status</strong> : No responsive,animation,javascript! I will update soon.
 
 ────────────────────────────────────────────────────────────────────────────
 ─██████████████─██████████████─██████████████─████████████───████████████───
