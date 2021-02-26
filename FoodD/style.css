@@ -9,6 +9,21 @@
     --e-global-typography-text-font-weight: 400;
     --e-global-typography-accent-font-family: "Montserrat";
     --e-global-typography-accent-font-weight: 500;
+    scroll-behavior: smooth;
+}
+body{overflow-x: hidden;}
+.button-down {
+    visibility:hidden;
+    position: fixed;
+    padding: 10px 14px;
+    background-color: rgba(250, 138, 34, 0.822);
+    border-radius: 3px;
+    cursor: pointer;
+    bottom:15px;
+    right:15px;
+    transition:.1s;
+    color:white;
+    font-size: 23px;
 }
 .mid{
     width: 100%;
@@ -114,6 +129,7 @@
 .section2 img{
     width:50%;
     transform: translateX(-76px) scale(1.3);
+    animation: load-bicycle 4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .section2 .content {
     width:50%;
@@ -126,6 +142,7 @@
     font-weight: 900;
     text-shadow: 0px 5px 5px rgb(255 255 255 / 15%);
     line-height: 70px;
+    animation: load-text-right-to-left 2s;
 }
 .section2 .content p{
     font-family: Arial, Helvetica, sans-serif;
@@ -135,6 +152,7 @@
     line-height: 26px;
     letter-spacing: 1.2px;
     color: rgb(75, 75, 75);
+    animation: load-text-up-to-down 2s;
 }
 .section2 .content input{
     margin-top: 40px;
@@ -169,8 +187,18 @@
 .section2 .content button i{
     color: rgb(255, 255, 255);
 }
-
-
+@keyframes load-bicycle{
+    from  { transform:scale(1.3) translateX(-1000px);}
+    to { transform:translateX(-76px) scale(1.3);}
+}
+@keyframes load-text-right-to-left{
+    from  { transform:translateX(400px);opacity: 0;}
+    to { transform:translateX(0px);opacity: 1;}
+}
+@keyframes load-text-up-to-down{
+    from  { transform:translateY(50px);opacity: 0;}
+    to { transform:translateY(0px);opacity: 1;}
+}
 .section3{
     width:100%;
     background: url(./img/bg_block_full.png) no-repeat;
