@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 *{
-    --e-global-typography-primary-font-family: "Montserrat";
-    --e-global-typography-primary-font-weight: 600;
-    --e-global-typography-secondary-font-family: "Roboto Slab";
-    --e-global-typography-secondary-font-weight: 400;
-    --e-global-typography-text-font-family: "Open Sans";
-    --e-global-typography-text-font-weight: 400;
-    --e-global-typography-accent-font-family: "Montserrat";
-    --e-global-typography-accent-font-weight: 500;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
-body{overflow-x: hidden;}
+body {
+    overflow-x:hidden;
+}
 .button-down {
     visibility:hidden;
     position: fixed;
@@ -26,7 +21,7 @@ body{overflow-x: hidden;}
     font-size: 23px;
 }
 .mid{
-    width: 100%;
+    width: 100vw;
     background: url(./img/top_bg.jpg);
     min-height: 722px;
     background-color: #EEF5F7;
@@ -35,6 +30,7 @@ body{overflow-x: hidden;}
 }
 .section1{
     margin: 0 auto;
+    width: 1140px;
     max-width: 1140px;
     display: flex;
     height: 73px;
@@ -46,6 +42,10 @@ body{overflow-x: hidden;}
     font-size: 45px;
     font-weight: 800;
     width: 33.333%;
+}
+.section1 .fa-bars,
+.mobile-menu{
+    display: none;
 }
 .menu{
     flex-direction: row;
@@ -116,8 +116,7 @@ body{overflow-x: hidden;}
     transition: .3s;
 }
 
-
-
+/* SECTION 2 */
 .section2{
     padding-top: 90px;
     margin: 0 auto;
@@ -199,6 +198,9 @@ body{overflow-x: hidden;}
     from  { transform:translateY(50px);opacity: 0;}
     to { transform:translateY(0px);opacity: 1;}
 }
+
+/* END SECTION 2 */
+/* SECTION 3 */
 .section3{
     width:100%;
     background: url(./img/bg_block_full.png) no-repeat;
@@ -246,7 +248,8 @@ body{overflow-x: hidden;}
     width:50%;
     margin-top: 40px;
 }
-
+/* END SECTION 3 */
+/* SECTION 4 */
 .section4{
     width:100%;
     background: url(./img/bg_blob_01.png) no-repeat;
@@ -329,6 +332,8 @@ body{overflow-x: hidden;}
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
+/* END SECTION 4 */
+/* GET TO KNOW*/
 .get-to-know{
     width: 1140px;
     display: flex;
@@ -410,7 +415,8 @@ body{overflow-x: hidden;}
     font-size: 20px;
     font-weight: 500;
 }
-
+/* END GET TO KNOW */
+/* SECTION 5 */
 .section5{
     width:100%;
     background: url(./img/bg_bottom_n.png);
@@ -456,9 +462,8 @@ body{overflow-x: hidden;}
 .section5 a:hover{
     text-decoration: underline;
 }
-
-
-
+/* END SECTION 5 */
+/* SECTION 6 */
 .section6{
     background: #15415B;
     width: 100%;
@@ -539,3 +544,4 @@ body{overflow-x: hidden;}
     color: #7591A2;
     line-height: 20px;
 }
+/* END SECTION 6 */
