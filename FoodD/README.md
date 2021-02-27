@@ -1,8 +1,10 @@
 # cloneProjectFEBasic
 <h3>Demo here :</h3> <a href="https://vhnvohoainam.github.io/cloneProjectFEBasic/FoodD/" target="_top">Click me</a>
 <br/>
-<strong>Status</strong> : No responsive,animation,javascript! I will update soon.
-
+<strong>Start</strong> : 26/02/2020 13h20
+<strong>End</strong> : 27/02/2021 12h51
+Responsive,smooth ui
+HTML, CSS, JS
 ────────────────────────────────────────────────────────────────────────────
 ─██████████████─██████████████─██████████████─████████████───████████████───
 ─██░░░░░░░░░░██─██░░░░░░░░░░██─██░░░░░░░░░░██─██░░░░░░░░████─██░░░░░░░░████─
