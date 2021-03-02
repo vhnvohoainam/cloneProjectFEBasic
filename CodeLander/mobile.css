@@ -1,0 +1,502 @@
+@media screen and (max-width: 768px) {
+    :root {
+        overflow-x: hidden;
+    }
+    .section1{
+        background: white;
+        box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.151);
+        position: fixed;
+    }
+    .section1 .container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .section1 .container img{
+        width: 30%;
+        margin-left: 10px;
+    }
+    .section1 .container .menu-bars{
+        display: block!important;
+        margin-right: 10px;
+        font-size: 26px;
+        color:#505050;
+        outline: none;
+        border:none;
+        background: white;
+    }
+    .section1 .container .menu{
+        width: 100%;
+        flex-direction: column;
+        height: unset;
+        padding-top: unset;
+        visibility:hidden;
+        max-height: 0px;
+        transition: max-height .2s linear;
+    }
+    .menu-mobile-show{
+        max-height:300px!important;
+        visibility:visible!important;
+    }
+    .section1 .container .menu a{
+        width:unset;
+        padding: 8px;
+        color:#505050;
+    }
+    .section1 .container .menu a:before{
+        content: "" !important;
+    }
+    .section1 .container .menu a:nth-child(7){
+        margin-left:unset;
+    }
+    
+    .big-content{
+        margin: 30px 0;
+    }
+    .section2{
+        margin-top:80px;
+        max-width: 100%;
+        min-height: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .section2 .left{
+        width: 90%;
+    }
+    .section2 .left img{
+        width: 100%;
+    }
+    .section2 .right{
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+    }
+    .section2 .right h2{
+        font-size: 24px;
+    }
+    .section2 .right h1{
+        font-size: 46px;
+    }
+    .section2 .right p{
+        font-size: 18px;
+    }
+    .section2 .right a{
+        font-size: 16px;
+    }
+
+    .section3{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3 .item{
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .section3 .item img{
+        width:auto;
+        height:80px;
+    }
+    .section3 .item h4{
+        font-size: 18px;
+    }
+
+    .section4{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .section4 .left{
+        width: 90%;
+        padding: unset;
+        text-align: center;
+    }
+    .section4 .left h4{
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 2;
+    }
+    .section4 .left h2{
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 1;
+        color: #303669;
+        margin-bottom: 20px;
+    }
+    .section4 .left p{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .section4 .left button{
+        text-align: left;
+    }
+    .section4 .right{
+        width:90%;
+    }
+    .section4 .right img{
+        width:100%;
+    }
+
+    .section5{
+        margin-top: 110px;
+        max-width: 100%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+    }
+    .section5 .left{
+        width:90%;
+    }
+    .section5 .left img{
+        width:100%;
+    }
+    .section5 .right{
+        width: 90%;
+        padding: unset;
+        text-align: center;
+    }
+    .section5 .right a{
+        width:65%;
+        margin: 0 auto;
+    }
+
+    .section6{
+        max-width: 90%;
+    }
+    .section6 .price-table{
+        flex-direction: column;
+    }
+    .section6 .price-table .item{
+        width: 90%;
+        margin: unset;
+        margin-bottom: 30px;
+    }
+
+
+    .section7{
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .section7 .slide{
+        width: 100%;
+        display: flex; 
+        flex-direction: column;
+    }
+    .section7 .slide .slide-item{
+        width: 100%;
+        text-align: center;
+    }
+
+    .section8{
+        width: 100%;
+    }
+    .section8 h4{
+        text-align: center;
+    }
+    .section8 h2{
+        text-align: center;
+    }
+    .section8 .featured{
+        width:90%;
+        flex-direction: column;
+    }
+    .section8 .featured .item{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .section9{
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+        background: transparent;
+    }
+    .section9 .left{
+        width: 90%;
+        text-align: center;
+    }
+    .section9 .right{
+        width: 90%;
+    }
+    .section9 .right img{ 
+        width: 100%;
+    }
+    
+
+    .footer .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer .container > div{
+        width: 90%;
+        padding: 0 40px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1140px) {
+    :root {
+        overflow-x: hidden;
+    }
+    .section1{
+        background: white;
+        box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.151);
+        position: fixed;
+    }
+    .section1 .container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .section1 .container img{
+        width: 30%;
+        margin-left: 10px;
+    }
+    .section1 .container .menu-bars{
+        display: block!important;
+        margin-right: 10px;
+        font-size: 26px;
+        color:#505050;
+        outline: none;
+        border:none;
+        background: white;
+    }
+    .section1 .container .menu{
+        width: 100%;
+        flex-direction: column;
+        height: unset;
+        padding-top: unset;
+        visibility:hidden;
+        max-height: 0px;
+        transition: max-height .2s linear;
+    }
+    .menu-mobile-show{
+        max-height:300px!important;
+        visibility:visible!important;
+    }
+    .section1 .container .menu a{
+        width:unset;
+        padding: 8px;
+        color:#505050;
+    }
+    .section1 .container .menu a:before{
+        content: "" !important;
+    }
+    .section1 .container .menu a:nth-child(7){
+        margin-left:unset;
+    }
+    
+    .big-content{
+        margin: 30px 0;
+    }
+    .section2{
+        margin-top:80px;
+        max-width: 100%;
+        min-height: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .section2 .left{
+        width: 90%;
+    }
+    .section2 .left img{
+        width: 100%;
+    }
+    .section2 .right{
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+    }
+    .section2 .right h2{
+        font-size: 24px;
+    }
+    .section2 .right h1{
+        font-size: 46px;
+    }
+    .section2 .right p{
+        font-size: 18px;
+    }
+    .section2 .right a{
+        font-size: 16px;
+    }
+
+    .section3{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3 .item{
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .section3 .item img{
+        width:auto;
+        height:80px;
+    }
+    .section3 .item h4{
+        font-size: 18px;
+    }
+
+    .section4{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .section4 .left{
+        width: 90%;
+        padding: unset;
+        text-align: center;
+    }
+    .section4 .left h4{
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 2;
+    }
+    .section4 .left h2{
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 1;
+        color: #303669;
+        margin-bottom: 20px;
+    }
+    .section4 .left p{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .section4 .left button{
+        text-align: left;
+    }
+    .section4 .right{
+        width:90%;
+    }
+    .section4 .right img{
+        width:100%;
+    }
+
+    .section5{
+        margin-top: 110px;
+        max-width: 100%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+    }
+    .section5 .left{
+        width:90%;
+    }
+    .section5 .left img{
+        width:100%;
+    }
+    .section5 .right{
+        width: 90%;
+        padding: unset;
+        text-align: center;
+    }
+    .section5 .right a{
+        width:65%;
+        margin: 0 auto;
+    }
+
+    .section6{
+        max-width: 90%;
+    }
+    .section6 .price-table{
+        flex-direction: column;
+    }
+    .section6 .price-table .item{
+        width: 90%;
+        margin: unset;
+        margin-bottom: 30px;
+    }
+
+
+    .section7{
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .section7 .slide{
+        width: 100%;
+        display: flex; 
+        flex-direction: column;
+    }
+    .section7 .slide .slide-item{
+        width: 100%;
+        text-align: center;
+    }
+
+    .section8{
+        width: 100%;
+    }
+    .section8 h4{
+        text-align: center;
+    }
+    .section8 h2{
+        text-align: center;
+    }
+    .section8 .featured{
+        width:90%;
+        flex-direction: column;
+    }
+    .section8 .featured .item{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .section9{
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+        background: transparent;
+    }
+    .section9 .left{
+        width: 90%;
+        text-align: center;
+    }
+    .section9 .right{
+        width: 90%;
+    }
+    .section9 .right img{ 
+        width: 100%;
+    }
+    
+
+    .footer .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer .container > div{
+        width: 90%;
+        padding: 0 40px;
+    }
+}
