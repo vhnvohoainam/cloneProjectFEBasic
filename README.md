@@ -1,2 +1,2 @@
 # cloneProjectFEBasic
-clone theme by me
+only front-end
