@@ -1,0 +1,386 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: black;
+}
+
+.checkout {
+  margin: 0 auto;
+  width: 96rem;
+  height: 72.2rem;
+  position: relative;
+}
+
+.checkout__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #eef2f4;
+}
+
+.checkout__container {
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #616a79;
+  z-index: 1;
+  width: 65.9rem;
+  height: 56.5rem;
+  padding: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 12.6rem;
+}
+
+.checkout__container::before {
+  content: "VISA";
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 10.5rem;
+  font-style: italic;
+  position: absolute;
+  top: -17px;
+  left: -25px;
+  color: #59626f94;
+}
+
+.checkout__container-left {
+  width: 24.9rem;
+  margin-top: 3rem;
+  padding-right: 10.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.checkout__container-left .left__title-name {
+  color: #ee956f;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 1.0rem;
+  letter-spacing: .1rem;
+  text-shadow: 0px 0px 2px #ee956f;
+}
+
+.checkout__container-left .left__title-desc {
+  color: white;
+  margin-top: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.9rem;
+  letter-spacing: .15rem;
+  line-height: 2.5rem;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.671);
+}
+
+.checkout__container-left .left__total {
+  border-top: 0.3px solid rgba(204, 204, 204, 0.329);
+  margin-top: auto;
+  padding-top: 2.5rem;
+  padding-bottom: 3.4rem;
+}
+
+.checkout__container-left .left__total-title {
+  color: #8b949f;
+  font-weight: bold;
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.checkout__container-left .left__total-price {
+  font-size: 6rem;
+  letter-spacing: -0.4rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: 400;
+  text-shadow: 0 10px 30px black;
+}
+
+.checkout__container-right {
+  position: absolute;
+  left: 24.9rem;
+  width: 51.4rem;
+  height: 35.9rem;
+  background: #f3f3f3;
+  -webkit-box-shadow: 0 0 23px 0 #0000006b;
+          box-shadow: 0 0 23px 0 #0000006b;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.checkout__container-right::after {
+  content: "VISA";
+  position: absolute;
+  top: 2.5rem;
+  right: 3rem;
+  font-size: 3rem;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 1000;
+  color: #687993;
+}
+
+.checkout__container-right .right__card {
+  width: 100%;
+}
+
+.checkout__container-right .right__card-input {
+  width: 100%;
+  height: 3.5rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.checkout__container-right .right__card-input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: #f3f3f3;
+  padding-left: 1.5rem;
+  color: #c0c0c5;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.checkout__container-right .right__card-input input::-webkit-input-placeholder {
+  color: #c0c0c5;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.checkout__container-right .right__card-input input:-ms-input-placeholder {
+  color: #c0c0c5;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.checkout__container-right .right__card-input input::-ms-input-placeholder {
+  color: #c0c0c5;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.checkout__container-right .right__card-input input::placeholder {
+  color: #c0c0c5;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.checkout__container-right .right__card-input i {
+  color: #c0c0c5;
+  position: absolute;
+  top: 1.2rem;
+  left: 1rem;
+  font-size: 1rem;
+}
+
+.checkout__container-right .right__card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.checkout__container-right .right__card-content .content__left {
+  width: 23rem;
+}
+
+.checkout__container-right .right__card-content .content__left-img {
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+  width: 13rem;
+  height: 19rem;
+}
+
+.checkout__container-right .right__card-content .content__left-rate {
+  padding-right: 3rem;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translateX(-0.6rem);
+          transform: translateX(-0.6rem);
+}
+
+.checkout__container-right .right__card-content .content__left-rate i {
+  font-size: 1.2rem;
+  color: #f4e4c3;
+  margin-right: .6rem;
+}
+
+.checkout__container-right .right__card-content .content__left-rate i.active {
+  color: #f6d27e;
+}
+
+.checkout__container-right .right__card-content .content__left-nav {
+  display: block;
+  padding-top: 1rem;
+  padding-right: 5rem;
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color: #c8cfd7c7;
+  font-weight: bold;
+}
+
+.checkout__container-right .right__card-content .content__right {
+  width: calc(100% - 19rem);
+}
+
+.checkout__container-right .right__card-content .content__right label {
+  display: block;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #bbc2cd;
+}
+
+.checkout__container-right .right__card-content .content__right input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: #f3f3f3;
+  padding: 1.5rem 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #7b7f87;
+  border-bottom: 1px solid #c9c9c9;
+  font-weight: 500;
+  letter-spacing: .2rem;
+  font-size: 1.4rem;
+  margin-bottom: 3.5rem;
+}
+
+.checkout__container-right .right__card-content .content__right-expires {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.checkout__container-right .right__card-content .content__right-expires div {
+  width: calc(100% / 3);
+  padding-right: 2rem;
+  color: #7b7f87;
+  font-weight: 550;
+}
+
+.checkout__container-right .right__card-content .content__right-expires .expires__left select {
+  color: inherit;
+  font-weight: inherit;
+  width: 100%;
+  background: #f3f3f3;
+  border: none;
+  outline: none;
+  padding: 1rem 0;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.checkout__container-right .right__card-content .content__right-expires .expires__mid select {
+  color: inherit;
+  font-weight: inherit;
+  width: 100%;
+  background: #f3f3f3;
+  border: none;
+  outline: none;
+  padding: 1rem 0;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.checkout__container-right .right__card-content .content__right-expires .expires__right input {
+  color: inherit;
+  font-weight: inherit;
+  padding: 1rem;
+}
+
+.checkout__container-right .right__button {
+  cursor: pointer;
+  position: absolute;
+  bottom: -3rem;
+  right: 3.7rem;
+  display: block;
+  padding: 2.5rem 3.7rem;
+  color: #ba6136;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #f79a70;
+  -webkit-box-shadow: 0 0 30px 2px #f79a70;
+          box-shadow: 0 0 30px 2px #f79a70;
+  border: none;
+  outline: none;
+}
+
+.checkout__container .right__save {
+  margin-top: auto;
+}
+
+.checkout__container .right__save input {
+  display: none;
+}
+
+.checkout__container .right__save input:checked + .lb::before {
+  opacity: 1;
+}
+
+.checkout__container .right__save .lb {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background: #515969;
+  -webkit-transform: translateY(25%);
+          transform: translateY(25%);
+  border-radius: 2px;
+  position: relative;
+}
+
+.checkout__container .right__save .lb:before {
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 3px;
+  width: 11px;
+  height: 5px;
+  border-left: 4px solid #f8a17d;
+  border-bottom: 4px solid #f8a17d;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.checkout__container .right__save label:last-child {
+  margin-left: 1rem;
+  color: #898892;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.05rem;
+  font-size: 1.1rem;
+}
+/*# sourceMappingURL=style.css.map */
